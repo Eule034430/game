@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paper Scissors Rock</title>
+    <script src="psr.js" defer></script>
+    <link rel="stylesheet" href="psr.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Paper Scissors Rock</h1>
+    </nav>
+    <div class="game">
+      <div class="psr-images">
+        <img
+          class="image"
+          id="paper"
+          src="hand.png"
+          alt="paper"
+          onclick="choosePaper()"
+        />
+        <img
+          class="image"
+          id="rock"
+          src="rock.png"
+          alt="rock"
+          onclick="chooseRock()"
+        />
+        <img
+          class="image"
+          id="scissors"
+          src="scissors.png"
+          alt="scissors"
+          onclick="chooseScissors()"
+        />
+      </div>
+
+      <div class="button-container">
+        <button id="begin">Begin</button>
+      </div>
+    </div>
+  </body>
+</html>
